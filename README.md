@@ -26,15 +26,15 @@ Ajouter des écouteurs d'événements (`addEventListener`)
 
 ## Étape 1️
 
-Toutes les données sont disponibles dans le fichier `data.js` qui est un tableau d'objets.
+Toutes les données sont disponibles dans le fichier `datas.js` qui est un tableau d'objets.
 
 ## Étape 2️
 
-Nous devons récupérer la carte créée dans le fichier `index.html` et l'ajouter dans le fichier `main.js` pour pouvoir l'utiliser.
+Nous devons récupérer la carte créée dans le fichier `index.html` et l'ajouter dans le fichier `createCard.js` pour pouvoir l'utiliser comme template, nous allons aussi nous en servir pour générer toutes les cartes.
 
 ## Étape 3️
 
-Boucler sur le tableau `data` pour afficher les robots sur la carte.
+Passer mes users en paramètre de la fonction et afficher toutes les cartes.
 
 ## Étape 4️
 
@@ -43,6 +43,8 @@ Créer un filtre pour afficher uniquement les robots que l'on souhaite.
 ## Étape 5️
 
 Mettre en ligne le projet sur github pages.
+
+[Resultat](https://gorskianthony.github.io/WCS_RobotFinder/)
 
 ---
 

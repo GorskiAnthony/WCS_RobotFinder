@@ -2,6 +2,7 @@ const robots = [
 	{
 		id: 1,
 		name: "Leanne Graham",
+		liveco: "Tu es le sang!",
 		email: "Sincere@april.biz",
 		address: {
 			street: "Kulas Light",
@@ -22,6 +23,7 @@ const robots = [
 	{
 		id: 2,
 		name: "Ervin Howell",
+		liveco: "Tu es le sang!",
 		email: "Shanna@melissa.tv",
 		address: {
 			street: "Victor Plains",
@@ -42,6 +44,7 @@ const robots = [
 	{
 		id: 3,
 		name: "Clementine Bauch",
+		liveco: "Tu es le sang!",
 		email: "Nathan@yesenia.net",
 		address: {
 			street: "Douglas Extension",
@@ -62,6 +65,7 @@ const robots = [
 	{
 		id: 4,
 		name: "Patricia Lebsack",
+		liveco: "Tu es le sang!",
 		email: "Julianne.OConner@kory.org",
 		address: {
 			street: "Hoeger Mall",
@@ -82,6 +86,7 @@ const robots = [
 	{
 		id: 5,
 		name: "Chelsey Dietrich",
+		liveco: "Tu es le sang!",
 		email: "Lucio_Hettinger@annie.ca",
 		address: {
 			street: "Skiles Walks",
@@ -102,6 +107,7 @@ const robots = [
 	{
 		id: 6,
 		name: "Mrs. Dennis Schulist",
+		liveco: "Tu es le sang!",
 		email: "Karley_Dach@jasper.info",
 		address: {
 			street: "Norberto Crossing",
@@ -122,6 +128,7 @@ const robots = [
 	{
 		id: 7,
 		name: "Kurtis Weissnat",
+		liveco: "Tu es le sang!",
 		email: "Telly.Hoeger@billy.biz",
 		address: {
 			street: "Rex Trail",
@@ -142,6 +149,7 @@ const robots = [
 	{
 		id: 8,
 		name: "Nicholas Runolfsdottir V",
+		liveco: "Tu es le sang!",
 		email: "Sherwood@rosamond.me",
 		address: {
 			street: "Ellsworth Summit",
@@ -162,6 +170,7 @@ const robots = [
 	{
 		id: 9,
 		name: "Glenna Reichert",
+		liveco: "Tu es le sang!",
 		email: "Chaim_McDermott@dana.io",
 		address: {
 			street: "Dayna Park",
@@ -182,6 +191,7 @@ const robots = [
 	{
 		id: 10,
 		name: "Clementina DuBuque",
+		liveco: "Tu es le sang!",
 		email: "Rey.Padberg@karina.biz",
 		address: {
 			street: "Kattie Turnpike",

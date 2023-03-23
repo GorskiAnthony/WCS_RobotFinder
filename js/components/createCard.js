@@ -12,6 +12,7 @@
 function createCard({
 	name,
 	email,
+	liveco,
 	address: {
 		street,
 		suite,
@@ -30,6 +31,7 @@ function createCard({
             <strong>Adresse :</strong> ${street}, ${suite},
             ${city}, ${zipcode},
         </p>
+        <p><strong>Liveco :</strong> ${liveco}</p>
         <p><strong>Téléphone :</strong> ${phone}</p>
         <p><strong>Nom de l'entreprise :</strong> ${companyName}</p>
         <p>
@@ -41,28 +43,4 @@ function createCard({
     </div>`;
 }
 
-/**
- * users est un tableau de donnée
- */
-function render(users) {
-	let html = "";
-
-	for (let i = 0; i < users.length; i++) {
-		// html = html + createCard(users[i]);
-		html += createCard(users[i]);
-	}
-
-	/**
-	 * Boucle forEach.
-	 * users.forEach(user => html += createCard(user));
-	 *
-	 * Boucle for .. of.
-	 * 	for (const user of users) {
-		    html += createCard(user);
-	    }
-	 */
-
-	return html;
-}
-
-export default render;
+export default createCard;

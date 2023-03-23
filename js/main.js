@@ -1,8 +1,9 @@
 // ES5 = require
 // const createCard = require("./createCard");
 
-import render from "./createCard.js";
-import robots from "./datas.js";
+import render from "./components/render.js";
+import robots from "./helpers/datas.js";
+// import createCard from "./components/createCard.js";
 
 const CARDS = document.querySelector(".cards");
 const FILTER = document.querySelector("#search");

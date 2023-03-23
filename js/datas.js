@@ -202,3 +202,6 @@ const robots = [
 ];
 
 export default robots;
+
+// es5
+// module.exports = robots;
